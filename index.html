@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width ,initial">
-<title> دورة CSS</title>
 
-<style>
- .box {
-    height: 400px;
-   width: 400px;
-   border:  5px solid  black;
-   margin: 20px;
-   position: relative;
-}
-.box1 , .box2 {
-    height: 150px;
-   width: 150px;
-}
-.box1{
-    background-color: #ffc0cb;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width ,initial">
+    <title> دورة CSS</title>
 
-}
-.box2{
-    background-color: #009999;
+    <style>
+        body {
+            background-image: url('css.png');
+            background-repeat: repeat;
+        }
 
-}
-</style>
+        h1 {
+            font-family: arial, sans-serif;
+            text-align: center;
+            color: rgb(34, 0, 61);
+            position: absolute;
+            top: 50%;
+            left: 49%;
+            transform: translate(-50%, 500%);
+        }
+
+        .join-button {
+            border-radius: 5px;
+            color: #ffffff;
+            background: #490a0a;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            left: 49%;
+            transform: translate(-50%, 700%);
+        }
+    </style>
 
 
-    </head>
-    <body >
+</head>
 
-        <h1>دورة لتعلم CSS</h1>
+<body dir="rtl">
 
-    <div>سوف نتعلم في هذه الدورة عن CSS وفائدتها في تنسيق صفحات الويب يسهل للمستخدمين طرق التعامل مع المواقع , 
-            هناك خصائص عديدة في ؤسس وسوف نتعلم تفاصيل وطرق استخدام تلك الخصائص في هذه الدورة  </div>
-    </body>
+    <h1>دورة لتعلم CSS</h1>
+    <a href="#" class="join-button">الانضمام</a>
+
+
+</body>
 
 </html>
